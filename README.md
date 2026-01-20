@@ -3,7 +3,7 @@
 <h2>30件のレコードのサンプルデータセット</h2>
 
 <a href="https://brightdata.jp">
-    <img src="https://github.com/luminati-io/World-Population-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
+    <img src="https://github.com/bright-jp/World-Population-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
 この**世界人口データセットサンプル**には**30件のレコード**が含まれており、**Bright Data API**を使用して抽出されました。
