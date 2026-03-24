@@ -1,64 +1,64 @@
 # 世界人口データセットサンプル
 
-<h2>30件のレコードのサンプルデータセット</h2>
+<h2>30件のレコードを含むサンプルデータセット</h2>
 
 <a href="https://brightdata.jp">
     <img src="https://github.com/bright-jp/World-Population-dataset-samples/blob/main/datasets-image.png" alt="Bright Data datasets" />
 </a>
 
-この**世界人口データセットサンプル**には**30件のレコード**が含まれており、**Bright Data API**を使用して抽出されました。
+この**世界人口データセットサンプル**には**30件のレコード**が含まれており、**Bright Data API**を使用して抽出されています。
 
-## データ項目
+## データポイント
 
 | Field Name | Description |
 |------------|-------------|
-| `url` | 特定の国の詳細な人口情報へ遷移するURLです。 |
-| `flag_image` | 視覚的に識別するための国旗画像のURLです。 |
-| `country` | データが提供される国の名称です。 |
-| `last_year_population` | 前年における当該国の総人口です。 |
-| `country_area` | 当該国の総面積（平方キロメートル）です。 |
-| `country_land_area` | 水域を除いた当該国の陸地面積（平方キロメートル）です。 |
-| `country_density (/km²)` | 当該国の1平方キロメートルあたりの人口密度です。 |
-| `population_world_percentage` | 世界人口のうち当該国に居住する人口の割合（%）です。 |
-| `country_population_rank` | 総人口に基づく当該国の順位です。 |
-| `population_by_year` | 近年における当該国の年次人口統計です。 |
-| `annual_population_growth` | 当該国人口の年間成長率で、数値の増減と割合を含みます。 |
-| `births_per_day` | 当該国における1日あたりの平均出生数です。 |
-| `deaths_per_day` | 当該国における1日あたりの平均死亡数です。 |
-| `emigrations_per_day` | 当該国から1日あたりに移住（国外転出）する平均人数です。 |
-| `net_change_per_day` | 出生、死亡、移住を考慮した人口の1日あたりの純増減です。 |
-| `population_change` | 1年間における人口の全体的な変化です。 |
-| `capital` | 当該国の首都です。 |
-| `continent` | 当該国が所在する大陸です。 |
-| `regions` | 該当する場合、国内の地域または下位地域のリストです。 |
-| `larget_cities` | 人口に基づく国内最大都市のリストです。 |
-| `abbreviation` | 当該国の公式略称またはISOコードです。 |
+| `url` | 特定の国の詳細な人口情報につながるURL。 |
+| `flag_image` | 視覚的な識別のための、その国の国旗画像のURL。 |
+| `country` | データが提供されている国名。 |
+| `last_year_population` | 前年におけるその国の総人口。 |
+| `country_area` | その国の総面積（平方キロメートル）。 |
+| `country_land_area` | 水域を除いた、その国の陸地面積（平方キロメートル）。 |
+| `country_density (/km²)` | その国の1平方キロメートルあたりの人口密度。 |
+| `population_world_percentage` | その国に居住する世界人口の割合。 |
+| `country_population_rank` | 総人口に基づくその国の順位。 |
+| `population_by_year` | その国の近年における年間人口統計。 |
+| `annual_population_growth` | 数値変化と割合を含む、その国の年間人口増加率。 |
+| `births_per_day` | その国で1日に発生する平均出生数。 |
+| `deaths_per_day` | その国で1日に発生する平均死亡数。 |
+| `emigrations_per_day` | その国から1日に国外移住する人の平均人数。 |
+| `net_change_per_day` | 出生、死亡、国外移住を考慮した後の、1日あたりの人口純増減。 |
+| `population_change` | 1年間における人口の全体的な変化。 |
+| `capital` | その国の首都。 |
+| `continent` | その国が位置する大陸。 |
+| `regions` | 該当する場合、その国内の地域または下位地域の一覧。 |
+| `larget_cities` | 人口に基づく、その国の最大都市の一覧。 |
+| `abbreviation` | その国の正式な略称またはISOコード。 |
 
 
 ## ユースケース
 
 ### 1. 市場拡大分析
-人口データを活用し、人口動態の傾向や人口密度を分析することで、事業拡大に向けた潜在市場を特定します。
+人口動態の傾向や人口密度を分析することで、事業拡大に向けた潜在市場の特定に人口データを活用します。
 
-### 2. 都市計画の研究
-人口増加、密度、地域別の分布に関するインサイトを用いて、都市開発プロジェクトを支援します。
+### 2. 都市計画研究
+さまざまな地域における人口増加、密度、分布に関するインサイトを通じて、都市開発プロジェクトを支援します。
 
 ### 3. 学術研究
-学術・政策研究向けに、詳細な人口統計と成長パターンを提供して人口動態研究を促進します。
+学術研究や政策研究のために、詳細な人口統計や成長パターンを提供し、人口動態研究を促進します。
 
 
 
 ## ファイル形式
 
-データセットは複数の形式で提供されています：
-- **CSV**（このサンプルに含まれます）
+このデータセットは複数の形式で利用できます:
+- **CSV**（このサンプルに含まれています）
 - **JSON**
 - **NDJSON**
 - **JSON Lines**
 - **Parquet**
 - **Compressed (.gz)**
 
-## 配信オプション
+## 提供オプション
 
 - **Email**
 - **API Download**
@@ -71,8 +71,8 @@
 
 ## 更新頻度
 
-データセットはさまざまなスケジュールで更新できます：
-- **Once**（1回限りの配信）
+データセットはさまざまなスケジュールで更新できます:
+- **Once**（1回限りの提供）
 - **Daily**
 - **Weekly**
 - **Monthly**
@@ -81,14 +81,14 @@
 
 ## データエンリッチメント
 
-特定の要件に基づき、追加のデータ項目でデータセットを強化できます。カスタムのエンリッチメントオプションについてはお問い合わせください。
+特定の要件に基づいて追加のデータポイントを加え、データセットを強化できます。カスタムエンリッチメントのオプションについてはお問い合わせください。
 
-**[完全版の世界人口データセットを入手](https://brightdata.jp/products/datasets/population)**
+**[完全な世界人口データセットを取得](https://brightdata.jp/products/datasets/population)**
 
 ---
 
 ## 研究者およびNGO向けの無料アクセス
 
-Bright Initiativeでは、環境および社会的課題に取り組む学術研究者、NGO、NPO向けに、**[Web Scraper APIs](https://brightdata.jp/products/web-scraper)**および**[すぐに使えるデータセット](https://brightdata.jp/products/datasets)**への無料アクセスを提供しています。 
+Bright Initiative は、環境問題や社会課題に取り組む学術研究者、NGO、NPO向けに、**[Web Scraper APIs](https://brightdata.jp/products/web-scraper)** と **[すぐに使えるデータセット](https://brightdata.jp/products/datasets)** への無料アクセスを提供しています。 
 
-無料アクセスの申請は[brightinitiative.com](https://brightinitiative.com)から行えます。
+無料アクセスの申請は [brightinitiative.com](https://brightinitiative.com) から行えます。
